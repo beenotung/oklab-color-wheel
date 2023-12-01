@@ -3,6 +3,7 @@
     "format": "prettier --write src",
     "start": "snowpack dev --port 8100",
     "build": "snowpack build",
+    "upload": "surge build https://oklab-color-wheel.surge.sh",
     "test": "tsc --noEmit",
     "tsc": "tsc -p ."
   },
@@ -10,6 +11,7 @@
     "@types/node": "^17.0.45",
     "prettier": "^2.7.1",
     "snowpack": "^3.8.8",
+    "surge": "^0.23.1",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.7.4"
